@@ -42,6 +42,38 @@ requests:
         - changethis
         - j5Brn9
         - tomcat
+        - guest
+        - password
+        - test
+        - 12345
+        - 123456
+        - 12345678
+        - 123qwe
+        - Passw@rd
+        - Passw@rd!
+        - Passw@rd1
+        - Pa$$w0rd
+        - Pa$$w@rd
+        - Admin
+        - Administer
+        - administer
+        - administrator
+        - developer
+        - dietpi
+        - letmein
+        - logon
+        - maintaince
+        - marketing
+        - postgres
+        - qwerty
+        - raspberry
+        - root
+        - techsupport
+        - testadmin
+        - toor
+        - uploader
+        - webadmin
+        - webmaster
 
     attack: clusterbomb  # Available options: sniper, pitchfork and clusterbomb
 
