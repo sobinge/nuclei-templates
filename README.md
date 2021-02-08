@@ -28,13 +28,13 @@ An overview of the nuclei template directory including number of templates assoc
 
 | Templates       | Counts                          | Templates        | Counts                         |
 | --------------- | ------------------------------- | ---------------- | ------------------------------ |
-| cves            | 166            | default-logins   | 8 |
+| cves            | 169            | default-logins   | 8 |
 | dns             | 6               | exposed-panels   | 74   |
 | exposed-tokens  | 9  | exposures        | 42      |
 | fuzzing         | 4           | helpers          | 2        |
 | miscellaneous   | 12     | misconfiguration | 40 |
-| takeovers       | 1         | technologies     | 46     |
-| vulnerabilities | 75 | workflows        | 17        |
+| takeovers       | 1         | technologies     | 45     |
+| vulnerabilities | 75 | workflows        | 18        |
 
 
 **Tree structure of nuclei templates:**
@@ -57,6 +57,7 @@ An overview of the nuclei template directory including number of templates assoc
 │   │   └── CVE-2014-6271.yaml
 │   ├── 2017
 │   │   ├── CVE-2017-10075.yaml
+│   │   ├── CVE-2017-10271.yaml
 │   │   ├── CVE-2017-11444.yaml
 │   │   ├── CVE-2017-12637.yaml
 │   │   ├── CVE-2017-14537.yaml
@@ -117,7 +118,6 @@ An overview of the nuclei template directory including number of templates assoc
 │   │   ├── CVE-2019-16278.yaml
 │   │   ├── CVE-2019-1653.yaml
 │   │   ├── CVE-2019-16662.yaml
-│   │   ├── CVE-2019-16759-1.yaml
 │   │   ├── CVE-2019-16759.yaml
 │   │   ├── CVE-2019-16920.yaml
 │   │   ├── CVE-2019-17382.yaml
@@ -219,8 +219,11 @@ An overview of the nuclei template directory including number of templates assoc
 │   │   ├── CVE-2020-9496.yaml
 │   │   └── CVE-2020-9757.yaml
 │   └── 2021
+│       ├── CVE-2021-22122.yaml
 │       ├── CVE-2021-22873.yaml
 │       ├── CVE-2021-25646.yaml
+│       ├── CVE-2021-26722.yaml
+│       ├── CVE-2021-26723.yaml
 │       └── CVE-2021-3019.yaml
 ├── default-logins
 │   ├── activemq
@@ -463,7 +466,6 @@ An overview of the nuclei template directory including number of templates assoc
 │   ├── bigip-config-utility-detect.yaml
 │   ├── cacti-detect.yaml
 │   ├── clockwork-php-page.yaml
-│   ├── couchdb-detect.yaml
 │   ├── detect-springboot-actuator.yaml
 │   ├── favicon-detection.yaml
 │   ├── firebase-detect.yaml
@@ -608,12 +610,13 @@ An overview of the nuclei template directory including number of templates assoc
     ├── springboot-workflow.yaml
     ├── thinkphp-workflow.yaml
     ├── vbulletin-workflow.yaml
+    ├── weblogic-workflow.yaml
     └── wordpress-workflow.yaml
 ```
 
 </details>
 
-**55 directories, 511 files**.
+**55 directories, 514 files**.
 
 📖 Documentation
 -----
