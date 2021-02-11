@@ -28,3 +28,6 @@ workflows:
       - template: vulnerabilities/jira/jira-unauthenticated-popular-filters.yaml
       - template: vulnerabilities/jira/jira-unauthenticated-projects.yaml
       - template: vulnerabilities/jira/jira-unauthenticated-user-picker.yaml
+      - template: vulnerabilities/jira/jira-unauthenticated-resolutions.yaml
+      - template: vulnerabilities/jira/jira-unauthenticated-adminprojects.yaml
+      - template: vulnerabilities/jira/jira-unauthenticated-projectcategories.yaml
