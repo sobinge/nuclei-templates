@@ -10,6 +10,8 @@ requests:
       username:
         - tomcat
         - admin
+        - administrator
+        - developer
         - ovwebusr
         - j2deployer
         - cxsdk
@@ -17,12 +19,10 @@ requests:
         - xampp
         - tomcat
         - QCC
-        - admin
         - root
         - role1
         - role
         - tomcat
-        - admin
         - role1
 
       password:
@@ -35,13 +35,10 @@ requests:
         - xampp
         - s3cret
         - QLogic66
-        - tomcat
         - root
         - role1
         - changethis
-        - changethis
         - j5Brn9
-        - tomcat
         - guest
         - password
         - test
